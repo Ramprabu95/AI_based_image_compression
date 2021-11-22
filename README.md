@@ -27,5 +27,5 @@ Training and testing was done on a subset of Image net dataset and validated. Th
 The software takes the path of test directory and train directory as inputs. There would be prompts like "Enter the train directory path:" and "Enter the test directory Path:" in the output regions of the cells. The path to the training and testing folders are to be entered in these prompts. No other input is required for the software.
 
 **Output**
-The output contains the original image, importance map and the reconstructed image. A sample output is shown below:
+The output contains the original image, importance map and the reconstructed image in a plot with three subplots. The PSNR and the SSIM between the original image and output image are also given as output
 
