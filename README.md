@@ -24,8 +24,13 @@ The software should run as a Jupyter notbook on Google Colab with Runtime as GPU
 
 Training and testing was done on a subset of Image net dataset and validated. The images are to be downloaded and split into training and testing files manually. These files are to be stored in seperated folders in the google drive. The software attaches to google drive to access the dataset.
 
+
 The software takes the path of test directory and train directory as inputs. There would be prompts like "Enter the train directory path:" and "Enter the test directory Path:" in the output regions of the cells. The path to the training and testing folders are to be entered in these prompts. No other input is required for the software.
 
+The link to find the imagenet dataset : https://image-net.org/download.php
+
+A imagenet account is required for downloading the dataset.
+
 **Output**
-The output contains the original image, importance map and the reconstructed image in a plot with three subplots. The PSNR and the SSIM between the original image and output image are also given as output
+The output contains the original image, importance map and the reconstructed image in a plot with three subplots. The PSNR and the SSIM between the original image and output image are also given as output.
 
